@@ -34,8 +34,11 @@ footer {
 }
 
 .title {
-    text-align: center;
     text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
 }
 
 .gallery {

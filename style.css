@@ -84,3 +84,49 @@ h1 {
         grid-template-columns: 1fr;
     }
 }
+
+/* Sekcja z postulatami */
+.postulaty {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.postulaty h2 {
+    color: #27ae60;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.postulaty-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.postulaty-list li {
+    background-color: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.postulaty-list li:hover {
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .postulaty {
+        padding: 1rem;
+    }
+
+    .postulaty-list li {
+        font-size: 0.9rem;
+    }
+}

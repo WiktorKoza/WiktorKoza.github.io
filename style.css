@@ -80,8 +80,8 @@ h1 {
     display: block;
     margin: 10px;
     border: 0;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .insta-link:hover {
